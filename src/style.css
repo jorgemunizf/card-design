@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    display: grid;
+    place-items: center;
+    margin: 0px;
+    height: 100vh;
+    background: #221d2d;
+    color: #fdfcfd;
+    font-family: 'Poppins';
+}
+
+.container__card {
+    display: flex;
+    align-items: center;
+    width: 75vw;
+    max-width: 650px;
+    padding: 50px 30px 50px 20px;
+    background: #121017;
+    border-radius: 24px;
+}
+
+.container__card>img {
+    max-width: 280px;
+    width: 35vw;
+    height: 300px;
+    object-fit: cover;
+    object-position: center top;
+    margin-left: -60px;
+    margin-right: 30px;
+    border-radius: inherit;
+    box-shadow: 0 60px 40px rgb(0, 0, 0/8%);
+}
+
+.container__content>h1 {
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.container__content>h2 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    opacity: 0.75;
+}
+
+.container__content>p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    opacity: 0.5;
+}
+
+.container__content>a {
+    display: grid;
+    place-items: center;
+    border: 0;
+    background: #493584;
+    color: #f8f8f8;
+    padding: 16px 26px;
+    font-size: 16px;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+@media(width <=600px) {
+    body {
+        display: grid;
+        place-items: center;
+        margin: 0px;
+        height: 100vh;
+        background: #221d2d;
+        color: #fdfcfd;
+        font-family: 'Poppins';
+    }
+
+    .container__card {
+        margin: 0 40px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 60px;
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .container__content>h1 {
+        margin-right: 0;
+    }
+
+    .container__card>img {
+        margin: -100px 0 30px 0;
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .container__content>p {
+        max-width: 360px;
+    }
+}
+
+@media (width <=400px) {
+    .container__card>img {
+        height: 45vw;
+        width: 45vw;
+        border-radius: 50%;
+        margin-top: -140px
+    }
+}
+
+;
