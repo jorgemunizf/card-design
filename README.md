@@ -10,14 +10,4 @@ Este repositório contém um exemplo simples de um design de card responsivo cri
 
 Pré-visualização do Design de Card
 
-Tela de 600px
-
-![alt text](./assets/image.png)
-
-Tela abaixo de 600px
-
-![alt text](./assets/image2.png)
-
-Tela abaixo de 400px
-
-![alt text](./assets/image3.png)
+[card-design.webm](https://github.com/jorgemunizf/card-design/assets/135549062/05e5e857-5e4d-4c0f-8a29-edd58380a00f)
